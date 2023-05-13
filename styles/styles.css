@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+.boxcontainer{
+
+  width: 200px;
+  height: 200px;
+  margin: auto; 
+  text-align: center;
+  line-height: 175px;
+  font-size: 1.1rem; /* 1rem is equivalent to the default font-size of the document, and 1.1rem is slightly larger  17px/16px*/
+  background-color: rgb(255, 0, 0); 
+  color: white; 
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2)); /* Set a linear gradient from transparent to semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3), inset 2px 2px 4px rgba(255, 255, 255, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.2); /* Set multiple box shadows */
+}
+
+.boxcontainer p{
+  text-shadow: 1px 1px 0 black; /* Add a black text shadow */
+}
+
